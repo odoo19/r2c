@@ -1,0 +1,9 @@
+<data noupdate="1">
+
+        <!-- Analytic Plans -->
+        <record id="analytic_plan_tenancy" model="account.analytic.plan">
+            <field name="name">Tenancy</field>
+            <field name="default_applicability">optional</field>
+        </record> 
+
+</data>

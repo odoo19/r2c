@@ -1,0 +1,74 @@
+ <odoo>
+
+    <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
+        <xpath expr="//footer" position="replace">
+            <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc" style="background-color: #161616;">
+                <div id="footer" class="oe_structure oe_structure_solo" data-oe-id="1452" data-oe-xpath="/data/xpath/div" data-oe-model="ir.ui.view" data-oe-field="arch">
+                    <section class="s_text_block pt40 pb16" data-snippet="s_text_block" data-name="Text">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-3 pt12 pb12" style="padding-left: 52px;">
+                                    <h1 class="mb-3">Property</h1>
+                                    <!-- <img src="/property_website/static/src/image/footer_logo.png"/> -->
+                                    <div class="s_social_media text-start o_not_editable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
+                                        <a href="/website/social/facebook" class="s_social_media_facebook" target="_blank" style="font-size: 25px;">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="/website/social/insta" class="s_social_media_instagram" target="_blank" style="font-size: 25px;">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="/website/social/twitter" class="s_social_media_twitter" target="_blank" style="font-size: 25px;">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="/website/social/linkedin" class="s_social_media_linkedin" target="_blank" style="font-size: 25px;">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                        <a href="/website/social/youtube" class="s_social_media_youtube" target="_blank" style="font-size: 25px;">
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                    <h6 class="mt-4">Email</h6>
+                                    <p style="margin-bottom: 4px; font-size: 14px;">property@gmail.com</p>
+                                    <h6 class="mt-4">Contact</h6>
+                                    <p style="margin-bottom: 4px; font-size: 14px;">+91 9876568790</p>
+                                    <p style="margin-bottom: 4px; font-size: 14px;">+91 9776568690</p>
+                                    <h6 class="mt-4">@2023 Property</h6>
+                                </div>
+                                <div class="col-lg-3 pt12 pb12 pl48" style="padding-left: 52px;">
+                                    <h5 class="mb-3" style="color: lightgoldenrodyellow;">Property Types</h5>
+                                    <ul class="list-unstyled">
+                                        <li style="margin-bottom: 8px;"><a href="/properties" style="color: white;">Bungalow</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Villa</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Resort</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Flat</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Apartment</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 pt12 pb12 pl48" style="padding-left: 52px;">
+                                    <h5 class="mb-3" style="color: lightgoldenrodyellow;">Services</h5>
+                                    <ul class="list-unstyled">
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Luxury Yacht</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Villas for Sale</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Onsite Manager &amp; Chef Services</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Special Decors for your Events</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Car Rental &amp; Self Driven Cars</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Special Casino Offers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 pt12 pb12 pl48" style="padding-left: 52px;">
+                                    <h5 class="mb-3" style="color: lightgoldenrodyellow;">Legal</h5>
+                                    <ul class="list-unstyled">
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Terms &amp; Conditions</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Privacy Policy</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#" style="color: white;">Blogs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+
+</odoo>
